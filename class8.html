@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-8</title>
+    <style>
+        .flex-cont
+        {
+            background-color: rgb(138, 191, 237);
+            display: flex; 
+            /* coloumn wise */
+            flex-direction: row;
+            /* row wise direction  */
+            /* flex-direction: row-reverse;
+            flex-direction: column-reverse; these will reverse the itemns */
+            flex-wrap: wrap; /* it will adjust items accoring to the width of device */
+            /* flex-flow: row wrap; in this we can give flex direction:row;
+            and wrap together  */
+            /* justify-content: flex-start; */
+            /*
+            justify-content: flex-start;
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: center;
+            using justify we can work with the the content
+            }  */
+            height: 700px;
+            align-items:flex-end;
+            /* align-items: end; */
+            /* align-items: center; */
+            /* align-items: stretch; */
+            
+            /* to align content we have */
+            align-items: stretch;
+            
+            /*search it in googlw with respect to align-items and justify content*/
+            /* align-content: flex-start; */
+            /* align-content: space-evenly; */
+           
+        }
+        .div
+        {
+            background-color: pink;
+            text-align: center;
+            font-size: 40px;
+            padding: 20px;
+            margin: 20px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-cont">
+        <div class="div">1</div>
+        <div class="div">2</div>
+        <div class="div">3</div>
+        <div class="div">4</div>
+        <div class="div">5</div>
+        <div class="div">6</div>
+        <div class="div">7</div>
+        <div class="div">8</div>
+        <div class="div">9</div>
+        <div class="div">10</div>
+           <!-- .div*10 -creates 10 div -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class6</title>
+    <style>
+        h2
+        {
+            text-align: center;
+            text-decoration-line: underline;
+            text-decoration-color: chartreuse;
+            text-decoration-style: solid;
+            font-family: cursive;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-decoration-thickness: 3px;
+        }
+        .display1
+        {
+            color: blueviolet;
+            /* display: none; */
+              display: block; /*now it will behave block level element  */
+             /* visibility: hidden; contetnt takes space but the content will be hidden */
+             padding: 20px;
+             margin: 20px;
+             border: 2px solid green;
+        }
+        .display2
+        {
+            color: rgb(55, 20, 197);
+            display: inline;
+            /* display: block; */
+            background-color: rgb(147, 239, 209);
+        }
+        span.display3
+        {
+            display: inline-block;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid black;
+            width: 100px;
+            height: 150px;
+            background-color: burlywood;
+
+        }
+        .main-block{
+            width: 800px;
+            height: 400px;
+            padding: 10px;
+            border: 2px solid blue;
+            margin: 10px;
+            background-color: rgb(209, 153, 113);
+            text-align: center;
+        }
+        .inline-block
+        {
+            display: inline-block;
+            width: 80px;
+            height: 90px;
+            padding: 10px;
+            border: 2px solid rgb(228, 9, 100);
+            margin: 1px;
+            background-color: rgb(225, 92, 198);
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>This is an example for Display Inline Property</h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt expedita e
+        <span class="display1">
+            SPAN1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatibus?
+        </span>
+        <span class="display1">
+            SPAN2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatibus?
+        </span>
+    </div>
+    <!-- div is block level element span is inline element  -->
+    
+    <h2>This is an example for Display Block Property</h2>
+    <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt expedita eum aut consectetur sit asperiores et architecto blanditiis sint beatae!
+        <span class="display2">
+            SPAN1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatibus?
+        </span>
+        <span class="display2">
+            SPAN2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatibus?
+        </span>
+    </div>
+    <!-- div is block level element span is inline element  -->
+    <h2>This is an example for Display Inline Block Property</h2>
+    <div class="display3">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt expedita eum aut consectetur sit asperiobeatae!
+        <span class="display3">
+            SPAN1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatibus?
+        </span>
+        <span class="display3">
+            SPAN2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, voluptatibus?
+        </span>
+    </div>
+    <!-- div is block level element span is inline element  -->
+    <div>
+
+        <div class="main-block">
+            <div class="inline-block">
+                <p>Inline Block</p>
+            </div>
+            <div class="inline-block">
+                <p>Inline Block</p>
+            </div>
+            <div class="inline-block">
+                <p>Inline Block</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

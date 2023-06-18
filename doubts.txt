@@ -1,0 +1,6 @@
+how to give weight to lin decoration
+table width
+<input type="date" name="" id=""> NAME? ID?
+whetehr we should write input type fisrt or label first
+absolute,relative and z-index
+justify  content,align items,align content

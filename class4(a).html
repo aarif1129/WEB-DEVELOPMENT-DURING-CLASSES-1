@@ -25,6 +25,10 @@
         {
             font-family: 'Times New Roman', Times, serif;
         }
+        div
+        {
+            padding: 2px;
+        }
     </style>
 </head>
 <body>
@@ -34,14 +38,11 @@
           <u>Form</u>  
         </b>
     </mark>
-    <br>
     </center>
-    <br>
-    <br>
+    <div>
     <form>
         <label>Full Name:</label>
         <input type="text" name="Full Name" placeholder="Enter Full Name"/>
-        <br><br>
         <label>Email:</label>
         <input type="email" name="Full Name" placeholder="Enter email"/><br><br>
         <label>Password:</label>
@@ -49,12 +50,10 @@
         <label>Gender:</label>
         <input type="radio" name="gender" value="female" />Female</input>
         <input type="radio" name="gender" value="MALE" />Male</input>
-        <br><br>
         <LABEl>Select Prefereances</LABEl>
         <input type="checkbox" name="preferences">Morning</input>
         <input type="checkbox" name="preferences">Evening</input>
         <input type="checkbox" name="preferences">After Evening</input>
-        <br><br>
         <label >Choose Timing</label>
         <select name="" id="">
             <option value="10am-12pm">10am-12pm</option>
@@ -65,10 +64,11 @@
                 <option value="type your">Type yours</option>
             </optgroup>
         </select>
-        <br><br>
+        
         
         <button>Submit</button>
         <button>Reset</button>
+    </div>
     </form>
     <br>
     <center>
